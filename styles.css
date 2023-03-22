@@ -1,0 +1,152 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  min-height: 99vh;
+  flex-flow: column wrap;
+  margin: 5px;
+  background: #34495e;
+}
+
+header {
+  margin: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #e4f1fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 25px white;
+  background: #22313f;
+  border: none;
+  border-radius: 6px;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-flow: row wrap;
+  align-content: space-between;
+  gap: 5px;
+}
+
+.recipeTitle,
+.recipeDesc {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.recipeImgAndDesc {
+  margin: 10px;
+  color: #34495e;
+  transition: ease-in 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.recipeImg {
+  margin: 20px;
+  width: 350px;
+  height: 350px;
+  border: 3px solid #8dc6ff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 25px white;
+}
+
+.recipeImgAndDesc:hover {
+  transform: scale(1.1);
+  color: #e4f1fe;
+}
+
+.recipeImg:hover {
+  border: 4px solid #8dc6ff;
+  box-shadow: 2px 2px 6px black, 2px 2px 12px black, 0px 0px 15px white;
+  transition: ease 0.3s;
+}
+
+.recipeDesc {
+  font-size: 18px;
+  max-width: 360px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.recipeTitle {
+  margin: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #e4f1fe;
+  text-shadow: 0px 0px 2px black, 0px 0px 7px black, 0px 0px 15px white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: auto;
+  color: #e4f1fe;
+  background: #22313f;
+  border: none;
+  border-radius: 3px;
+}
+
+.footerLogo {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  filter: invert(1);
+}
+
+@media (max-width: 800px) {
+  header {
+    font-size: 28px;
+  }
+  .recipeImg {
+    width: 300px;
+    height: 300px;
+    margin: 18px;
+  }
+  .recipeDesc {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    font-size: 26px;
+  }
+  .recipeImg {
+    width: 250px;
+    height: 250px;
+    margin: 16px;
+  }
+  .recipeDesc {
+    max-width: 260px;
+  }
+  .recipeTitle {
+    font-size: 24;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    font-size: 24px;
+  }
+  .recipeImg {
+    width: 200px;
+    height: 200px;
+    margin: 14px;
+  }
+  .recipeDesc {
+    max-width: 210px;
+  }
+  .recipeTitle {
+    font-size: 22;
+  }
+}
