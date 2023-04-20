@@ -3,7 +3,7 @@ body {
   display: flex;
   min-height: 99vh;
   flex-flow: column wrap;
-  margin: 5px;
+  margin: 1%;
   background: #22313f;
   display: flex;
   align-items: center;
@@ -20,7 +20,6 @@ header {
   align-items: center;
   justify-content: center;
   text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 25px white;
-  max-width: 1000px;
 }
 
 .mainContent {
@@ -41,7 +40,7 @@ header {
   border: 3px solid #8dc6ff;
   border-radius: 12px;
   box-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 10px white;
-  max-width: 90%;
+  max-width: 85%;
   height: auto;
 }
 
@@ -63,14 +62,14 @@ a {
 
 .descText {
   font-size: 25px;
-  max-width: 1000px;
+  max-width: 82%;
 }
 
 ul {
   margin: 15px;
   font-size: 22px;
   color: #e4f1fe;
-  max-width: 1000px;
+  max-width: 82%;
 }
 
 .directions {
@@ -82,27 +81,31 @@ ul {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  font-size: 20px;
-  gap: 50px;
+  font-size: 24px;
+  gap: 2%;
 }
 
 ol {
-  max-width: 500px;
+  max-width: 43%;
 }
 
 .dirImgs {
-  margin: 10px;
+  margin: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  max-width: 45%;
+  max-width: 44%;
   height: auto;
 }
 
 .blurb {
   font-size: 22px;
   color: #e4f1fe;
+}
+
+.botHomeLink {
+  margin: 2.5%;
 }
 
 footer {
@@ -121,53 +124,22 @@ footer {
   filter: invert(1);
 }
 
-@media (max-width: 1100px) {
-  .descText {
-    max-width: 850px;
-  }
-  ul {
-    max-width: 850px;
-  }
-  ol {
-    max-width: 450px;
+@media (max-width: 2000px) {
+  .directions {
+    font-size: 22px;
   }
 }
 
 @media (max-width: 800px) {
-  .descText {
-    max-width: 750px;
+  .directions {
+    font-size: 20px;
   }
-  ul {
-    max-width: 750px;
-  }
-  ol {
-    max-width: 350px;
-  }
-}
 
-@media (max-width: 600px) {
-  .descText {
-    max-width: 550px;
-  }
-  ul {
-    max-width: 550px;
-  }
-  ol {
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 450px) {
-  .descText {
-    max-width: 325px;
-  }
-  ul {
-    max-width: 325px;
-  }
   .dirImgs {
-    max-width: 90%;
+    max-width: 85%;
   }
+
   ol {
-    max-width: 325px;
+    max-width: 85%;
   }
 }

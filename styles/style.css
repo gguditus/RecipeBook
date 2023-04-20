@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  margin: 50px;
+  margin: 5%;
   font-size: 35px;
   font-weight: bolder;
   color: #e4f1fe;
@@ -17,8 +17,6 @@ header {
   justify-content: center;
   text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 25px white;
   background: #22313f;
-  border: none;
-  border-radius: 6px;
 }
 
 main {
@@ -33,12 +31,12 @@ main {
   align-items: space-around;
   flex-flow: row wrap;
   align-content: space-between;
-  gap: 5px;
+  gap: 15px;
 }
 
 .recipeTitle,
 .recipeDesc {
-  margin: 15px;
+  margin: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +44,7 @@ main {
 }
 
 .recipeImgAndDesc {
-  margin: 10px;
+  margin: 15px;
   color: #34495e;
   transition: ease-in 0.25s;
   display: flex;
@@ -56,7 +54,7 @@ main {
 }
 
 .recipeImg {
-  margin: 20px;
+  margin: 25px;
   width: 350px;
   height: 350px;
   border: 3px solid #8dc6ff;
@@ -111,11 +109,17 @@ footer {
   header {
     font-size: 28px;
   }
+
+  .recipeImgAndDesc {
+    color: #e4f1fe;
+  }
+
   .recipeImg {
     width: 300px;
     height: 300px;
     margin: 18px;
   }
+
   .recipeDesc {
     max-width: 310px;
   }
@@ -125,14 +129,17 @@ footer {
   header {
     font-size: 26px;
   }
+
   .recipeImg {
     width: 250px;
     height: 250px;
     margin: 16px;
   }
+
   .recipeDesc {
     max-width: 260px;
   }
+
   .recipeTitle {
     font-size: 24;
   }
@@ -142,14 +149,17 @@ footer {
   header {
     font-size: 24px;
   }
+
   .recipeImg {
     width: 200px;
     height: 200px;
     margin: 14px;
   }
+
   .recipeDesc {
     max-width: 210px;
   }
+
   .recipeTitle {
     font-size: 22;
   }
