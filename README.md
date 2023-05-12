@@ -1,2 +1,3 @@
 # RecipeBook
-a simple (but hopefully sleek) recipe book website 
+A simple (but hopefully sleek) recipe book website with real recipes that I enjoy to make and eat.
+Each recipe has structured data markup to produce rich results using the recipe schema. The main page also has structured data to produce rich results with a link to each recipe page using the carousel schema. The rich results may not appear in google's rich results test as expected at this point, instead the validator from Schema.org can be used (https://validator.schema.org/). To test, simply paste the URL to test and click validate. Alternatively, paste the code to test and click validate. 
